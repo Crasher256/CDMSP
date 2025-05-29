@@ -281,7 +281,6 @@ section {
   gap: 20px;
   padding: 20px;
 }
-
 .info section {
   flex: 1 1 250px; /* crece, se contrae, base mínima */
   background-color: #f9f9f9;
@@ -296,7 +295,6 @@ section {
   margin-bottom: 10px;
   color: #2a2a2a;
 }
-
 .info ul {
   padding-left: 20px;
   line-height: 1.5;
@@ -306,7 +304,6 @@ section {
     flex-direction: column;
     align-items: center;
   }
-
   .info section {
     width: 90%;
     max-width: none;
