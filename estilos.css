@@ -274,6 +274,7 @@ main {
   padding: 15px;
 }
 .fb-page{
+  position:relative;
   padding: 10px;
   justify-content:center;
 }
