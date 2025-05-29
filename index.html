@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDMSP</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+        <div class = "logo">
+            <a href="#"><img src="imagenes/logo.jpg" /></a>
+        </div>
+        <ul class="links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="actiSociales.html">Actividades</a></li>           
+        </ul>
+        <div class="toggle_btn">
+            <img src="imagenes/menu.png" />
+        </div> 
+        <div class="dropdown_menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="actiSociales.html">Actividades</a></li>   
+        </div>
+    </div>
+  </header> 
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn img')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+    }
+  </script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : 'your-app-id',
+        xfbml            : true,
+        version          : 'v22.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <main>
+    <div class="scrwdrvr">
+      <section id="hero">
+        <h2><center>Coordinadora Departamental de Mujeres de San Pedro</center></h2>
+        <p><strong>Fundada el 17 de febrero de 2011 | Ko'ê Ytá – Liberación, Paraguay</strong></p>
+        <p>Somos una organización conformada por 250 mujeres rurales de los distritos de Liberación, General Resquín y Guajayvi, 
+        unidas para promover la participación activa de las mujeres en la defensa de sus derechos y en el desarrollo integral de sus comunidades.</p>
+      </section>
+      <div class="MyV">
+          <div>
+            <h2>Misión</h2>
+            <p>Impulsar espacios de participación para el conocimiento, ejercicio y defensa de los derechos de las mujeres.</p>
+          </div>
+          <div>
+            <h2>Visión</h2>
+            <p>Ser una organización referente en la promoción de los intereses y necesidades de las mujeres rurales, contribuyendo a su desarrollo económico, social y cultural.</p>
+          </div>
+      </div>
+    </div>
+    <div class="gear">
+      <div id="text">
+        <h3><strong>
+          Redes Sociales
+        </strong></h3>  
+      </div>
+      <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61555392063723" data-tabs="timeline" data-width="300" data-height="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61555392063723" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61555392063723">Coordinadora Departamental de Mujeres de San Pedro</a></blockquote></div>
+    </div>
+    </main>
+    <div class="info">
+      <section class="seccion1">
+        <h2>Objetivos</h2>
+        <ul>
+          <li>Fomentar el desarrollo integral de las mujeres y sus organizaciones.</li>
+          <li>Promover proyectos sostenibles en lo económico, social, tecnológico y ecológico.</li>
+          <li>Generar propuestas desde las prioridades de las mujeres organizadas.</li>
+        </ul>
+      </section>
+      <section class="seccion2">
+        <h2>Áreas Temáticas de Trabajo</h2>
+        <ul>
+          <li>Fortalecimiento organizativo</li>
+          <li>Producción agroecológica</li>
+          <li>Medio ambiente y cambio climático</li>
+          <li>Incidencia en políticas públicas</li>
+          <li>Investigación en desarrollo rural sostenible</li>
+        </ul>
+      </section>
+
+      <section class="seccion3">
+        <h2>Estructura Organizativa</h2>
+        <ul>
+          <li>Asamblea de Asociadas</li>
+          <li>Consejo de Mujeres</li>
+          <li>Secretarías: Ejecutiva, Finanzas, Actas</li>
+          <li>Síndica</li>
+          <li>Miembros</li>
+        </ul>
+      </section>
+
+      <section class="seccion4">
+        <h2>Actividades Destacadas</h2>
+        <ul>
+          <li>Reuniones distritales y de base</li>
+          <li>Producción agropecuaria sostenible</li>
+          <li>Programas radiales a nivel distrital</li>
+          <li>Participación en ferias agropecuarias</li>
+        </ul>
+      </section>
+    </div>
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

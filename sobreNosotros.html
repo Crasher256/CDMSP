@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDMSP</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+        <div class = "logo">
+            <a href="#"><img src="imagenes/logo.jpg" /></a>
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="actiSociales.html">Actividades</a></li>           
+        </ul>
+        <div class="toggle_btn">
+            <img src="imagenes/menu.png" />
+        </div> 
+        <div class="dropdown_menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="actiSociales.html">Actividades</a></li>   
+        </div>
+    </div>
+  </header> 
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn img')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+    }
+  </script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : 'your-app-id',
+        xfbml            : true,
+        version          : 'v22.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <div class="ctc">
+        <div class="secc1">
+            <h2><strong>¿Quiénes somos?</strong></h2>
+            <p> Una organización social de base territorial, conformada por 250 mujeres comprometidas con el desarrollo integral y la defensa de los derechos de las mujeres rurales. Nuestra presencia se extiende por los distritos de Liberación, General Resquín y Guajayvi, con sede en la comunidad de Ko’ê Ytá – Distrito de Liberación.
+            Constituidas desde el 17 de febrero de 2011, hemos tejido una red sólida de liderazgo femenino, construida desde la participación, la organización y la acción colectiva.
+            </p>
+        </div>
+    </div>
+    <div class="feeds">
+        <div class="contenedor-galeria">
+            <div class="galeria">
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image1.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image2.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image3.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image4.jpg">
+                    </figure>
+                </div>
+
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image5.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image6.jpg">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image7.jpg">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image9.jpg">
+                    </figure>
+                </div>
+
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image10.jpg">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image11.jpg">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image12.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image13.png">
+                    </figure>
+                </div>
+                <div class="contenedor-imagen">
+                    <figure>
+                        <img src="C:\Users\User\Documents\Página_web_CDMSP\imagenes\image14.jpg">
+                    </figure>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

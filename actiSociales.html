@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDMSP</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+        <div class = "logo">
+            <a href="#"><img src="imagenes/logo.jpg" /></a>
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="#">Actividades</a></li>           
+        </ul>
+        <div class="toggle_btn">
+            <img src="imagenes/menu.png" />
+        </div> 
+        <div class="dropdown_menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contactos.html">Contacto</a></li>
+            <li><a href="#">Actividades</a></li>   
+        </div>
+    </div>
+  </header> 
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn img')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+    }
+  </script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : 'your-app-id',
+        xfbml            : true,
+        version          : 'v22.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <div class="ctc">
+        <div class="secc1">
+            <h2><strong>La Coordinadora Departamental de Mujeres, recibió la aprobación de una serie de proyectos, como se detalla a continuación: </strong></h2>
+            <table class="proyectos" border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                <th>AÑO</th>
+                <th>NOMBRE DE COOPERANTE</th>
+                <th>CONVENIO/CONTRATO NUMERO</th>
+                <th>NOMBRE DE PROYECTO</th>
+                <th>MONTO DE DONACION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>2016</td>
+                <td>FONDO DE MUJERES DEL SUR</td>
+                <td>Carta acuerdo</td>
+                <td>Conociendo y protegiendo los derechos ambientales de las mujeres</td>
+                <td>Gs. 17.100.000</td>
+                </tr>
+                <tr>
+                <td>2018</td>
+                <td>FONDO DE MUJERES DEL SUR</td>
+                <td>Rev00 - 01/07/2018</td>
+                <td>Fomentando el derecho a un ambiente sano, por parte de las mujeres rurales</td>
+                <td>Gs. 12.000.000</td>
+                </tr>
+                <tr>
+                <td>2019</td>
+                <td>FONDO DE MUJERES DEL SUR</td>
+                <td>DDAA N°E.1-10/2019</td>
+                <td>Fomentando la participación de las mujeres rurales en el ámbito de la agricultura familiar</td>
+                <td>Gs. 16.500.000</td>
+                </tr>
+                <tr>
+                <td>2019</td>
+                <td>DAP EMBAJADA DE AUSTRALIA</td>
+                <td>Proyecto BAIRO0269FPY2018-19</td>
+                <td>Manejo sostenible de actividades agropecuarias y recursos naturales, como aporte de mujeres rurales</td>
+                <td>Dólares australianos 49.015</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td>FONDO DE MUJERES DEL SUR</td>
+                <td>DDAA N°05/2020</td>
+                <td>Fortalecimiento organizativo de organizaciones de mujeres y su vinculación en los ámbitos ambiental, social y económico</td>
+                <td>Euros 5.000</td>
+                </tr>
+                <tr>
+                <td>2021</td>
+                <td>FONDO CASA SOCIOAMBIENTAL / FUNDACION BLUE FLORESTA</td>
+                <td>CONTRATO GG379/2021</td>
+                <td>Aporte de mujeres sobre cambio climático y justicia ambiental, capacitación en organización y acciones de mujeres rurales a nivel local</td>
+                <td>U$S 5.000</td>
+                </tr>
+                <tr>
+                <td>2022</td>
+                <td>FUNDACION SOCIOAMBIENTAL SEMILLA</td>
+                <td>CONTRATO GGPY230/2022</td>
+                <td>Participación de mujeres rurales en acciones de visibilidad sobre justicia ambiental y cambio climático</td>
+                <td>U$S 5.000</td>
+                </tr>
+                <tr>
+                <td>2022</td>
+                <td>FUNDACION INTERAMERICANA</td>
+                <td>CONVENIO DE DONACION PY-227</td>
+                <td>—</td>
+                <td>U$S 78.000</td>
+                </tr>
+            </tbody>
+            </table>
+
+        </div>
+    </div>
+    
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
