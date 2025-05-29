@@ -190,7 +190,7 @@ header {
     right: 2rem;
     top: 60px;
     height: 0;
-    width: 300 px;
+    width: 300px;
     background:rgba(0, 0, 0, 0.411);
     border-radius: 10px;
     overflow: hidden;   
@@ -233,7 +233,16 @@ main {
   padding: 20px;
   border-radius: 8px;
   display: flex;
-  justify-content:space-between;
+  justify-content: center; /* centra horizontalmente */
+  flex-wrap: wrap; /* para que se acomode en pantallas pequeñas */
+  gap: 20px; /* espacio entre columnas */
+  max-width: 1200px;
+  margin: auto; /* centra el main en la página */
+}
+.scrwdrvr {
+  flex: 1 1 600px; /* permite que crezca o se achique */
+  max-width: 800px;
+  min-width: 300px;
 }
 .gear{
   box-shadow: 1px 1px 1px 1px #777; 
